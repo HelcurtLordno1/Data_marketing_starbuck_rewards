@@ -12,7 +12,15 @@
     "time_completed",
     "time_completed_was_imputed"
   ],
-  "n_numeric_features": 37,
-  "n_categorical_features": 6,
-  "n_total_features": 43
+  "n_numeric_features": 41,
+  "n_categorical_features": 2,
+  "n_total_features": 43,
+  "svd_k": "income_group",
+  "models_compared": [
+    "hist_gb",
+    "random_forest",
+    "log_reg",
+    "most_popular_offer",
+    "svd_collaborative"
+  ]
 }
